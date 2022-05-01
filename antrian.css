@@ -1,0 +1,81 @@
+.roundeded {
+    border-radius: 20px !important;
+}
+
+
+.display-penuh {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.mt-10{
+    margin-top: 100px;
+}
+
+.mt-15{
+    margin-top: 150px;
+}
+
+.hover:hover{
+    background-color: aqua;
+    animation-duration: 300ms;
+}
+
+.hover H1:hover{
+    font-size: 9.5em !important;
+}
+
+
+.kanan-bawah{
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 30px;
+}
+
+.container{
+    background-color: brown !important;
+}
+
+.biru{
+    color: rgb(65, 104, 231) !important;
+}
+
+.warna-biru{
+    background-color: rgba(41, 169, 255, 0.336);
+}
+
+@media (max-width:992px) {
+    .mt-sm-n1 {
+        margin-top: -300px !important;
+    }
+
+    .mt-sm-n2 {
+        margin-top: -300px !important;
+    }
+
+    .mt-sm-n3 {
+        margin-top: -300px !important;
+    }
+
+    .h1-r {
+        font-size: 7em !important;
+        color: brown;
+    }
+}
+
+
+
+@media (min-width:992px) { 
+    .h1-r {
+        font-size: 10em !important;
+        color: brown;
+    }
+
+    .ml-lg-n3{
+        margin-left: -100px;
+    }
+}
